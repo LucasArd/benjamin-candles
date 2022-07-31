@@ -161,7 +161,6 @@ footer div{
 .iconos_contacto {
 
     display: flex;
-    flex-direction: row;
 
 }
 
@@ -172,17 +171,17 @@ footer div{
 }
 .fa-envelope{
 
-    padding-left: 4rem;
+    padding-left: 1rem;
     margin: 0.5rem;
 }
 .fa-facebook{
 
-    padding-left: 4rem;
+    padding-left: 1rem;
     margin: 0.5rem;
 }
 .fa-whatsapp{
 
-    padding-left: 4rem;
+    padding-left: 33%;
     margin: 0.5rem;
 }
 
@@ -369,7 +368,7 @@ footer div{
             
         }
         .iconos_contacto{
-            margin-bottom: 3rem;
+            margin-bottom: 4rem;
             margin-left: 0;
             padding-left: 0;
         }
