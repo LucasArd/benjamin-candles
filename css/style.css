@@ -87,6 +87,7 @@ article h2{
     font-size: 2.5rem;
     justify-content: center;
 
+
 }
 .a_article_4imagenes:hover{
     transition: all 2s;
@@ -99,6 +100,24 @@ article h2{
     padding: 2rem;
     background-color: rgba(255, 223, 223, 0.649);
 }
+
+
+@keyframes animacionImagenes {
+    0% {
+
+        transform: scale(1.2);
+    }
+
+    50% {
+        background-color: rgb(91, 89, 183);
+        }
+
+}
+
+.img_index_edit:hover{
+    animation: animacionImagenes 2s;
+}
+
 .Ver_productos{
     font-size: 1.8rem;
     padding: 0.5rem;
@@ -144,8 +163,8 @@ p{
 
 iframe{
     padding-left: 30%;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 footer{
     background-color: rgba(228, 122, 28, 0.64);
@@ -180,8 +199,6 @@ footer div{
     margin: 0.5rem;
 }
 .fa-whatsapp{
-
-    padding-left: 33%;
     margin: 0.5rem;
 }
 
