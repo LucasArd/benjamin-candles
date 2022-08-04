@@ -308,6 +308,7 @@ footer div{
     "img_10 img_8 img_12";
 }
 
+
 /* ===== ================================ Nosotros Views ================================ ===== */
 
 .fraseMotivacionalInicioNosotros{
@@ -335,7 +336,13 @@ footer div{
     font-size: x-large;
 }
 
+.iconos_contacto {
+    display: flex;
+}
 
+.iconos_contacto:hover{
+    animation: animacionImagenes 2s;
+}
 
 /*===== ================================== Media Querie ================================== ===== */
 
