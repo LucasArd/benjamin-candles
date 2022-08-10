@@ -20,6 +20,8 @@
   <header>
     <h1>BENJAMIN CANDLES</h1>
     <nav class="container-fluid navbar navbar-expand-lg navbar-light">
+      <h1 class="benjamin_candles_titulo">BENJAMIN CANDLES</h1>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon toggler-icon"></span>
         </button>
@@ -106,23 +108,37 @@
             </div>
         </section>    
     </main>   
-    <section>
-        <div class="la_coleccion">
-            <ul class="article_4imagenes">
-                <li><img class= "img_index_edit" src="../img/vela_producto_4.jpg" alt="producto 4">
-                    <a href="./velas.html" class="a_article_4imagenes"> Velas </a>
-                </li>
-                <li><img class="img_index_edit" src="../img/velas-y-flores.jpg" alt="producto 1">
-                    <a href="./composiciones.html" class="a_article_4imagenes"> Composiciones </a>
-                </li>               
-                <li><img class="img_index_edit" src="../img/mantas-y-almohadones.jpg" alt="producto 2">
-                    <a href="./trabajos-en-tela.html" class="a_article_4imagenes"> Trabajos en Tela </a>
-                </li> 
-                <li><img class="img_index_edit" src="../img/fragancia-jabon-escencia.jpg" alt="producto 3">
-                    <a href="./jabones-y-esencias.html" class="a_article_4imagenes"> Jabones y esencias </a>
-            </ul>
+    <article class="container">
+      <div  class="row contenedor-cards">
+        <div class="card col-md-2" >
+          <img src="../img/velas-y-flores.jpg" class="card-img-top-index" alt="...">
+          <div class="card-body">
+            <a href="./composiciones.html" class="texto-carta"> Te invitamos a ver nuestras composiciones mas lindas ! </a>
+          </div>
         </div>
-    </section>
+
+        <div class="card col-md-2" >
+          <img src="../img/vela_producto_4.jpg" class="card-img-top-index" alt="...">
+          <div class="card-body">
+            <a href="./velas.html" class="texto-carta"> Veni a ver nuestras hermosas Velas de soja ! </a>
+          </div>
+        </div>
+
+        <div class="card col-md-2" >
+          <img src="../img/mantas-y-almohadones.jpg" class="card-img-top-index" alt="...">
+          <div class="card-body">
+            <a href="./trabajos-en-tela.html" class="texto-carta"> Aca tenemos trabajos totalmente artesanales sobre tela  </a> 
+          </div>
+        </div>
+
+        <div class="card col-md-2" >
+          <img src="../img/fragancia-jabon-escencia.jpg" class="card-img-top-index" alt="...">
+          <div class="card-body">
+            <a href="./jabones-y-esencias.html" class="texto-carta"> Probar estos jabones y esencias es un camino de ida </a>
+          </div>
+        </div>
+      </div>
+    </article>
 
     <footer id="pie">
         <ul class="nav justify-content-center">

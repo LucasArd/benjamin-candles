@@ -17,8 +17,8 @@
 </head>
 <body class="parallax">
     <header>
-        <h1>BENJAMIN CANDLES</h1>
         <nav class="container-fluid navbar navbar-expand-lg navbar-light">
+          <h1 class="benjamin_candles_titulo">BENJAMIN CANDLES</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon toggler-icon"></span>
             </button>
@@ -70,48 +70,65 @@
             </div>
         </section>
     </main>
-    <article >
-        <div class="la_coleccion">
-            <h2> Nuestra coleccion </h2>
-            <ul class="article_4imagenes">
-                <li><img class= "img_index_edit" src="./img/vela_producto_4.jpg" alt="producto 4">
-                    <a href="./views/velas.html" class="a_article_4imagenes"> Velas </a>
-                </li>
-                <li><img class="img_index_edit" src="./img/velas-y-flores.jpg" alt="producto 1">
-                    <a href="./views/composiciones.html" class="a_article_4imagenes"> Composiciones </a>
-                </li>               
-                <li><img class="img_index_edit" src="./img/mantas-y-almohadones.jpg" alt="producto 2">
-                    <a href="./views/trabajos-en-tela.html" class="a_article_4imagenes"> Trabajos en Tela </a>
-                </li> 
-                <li><img class="img_index_edit" src="./img/fragancia-jabon-escencia.jpg" alt="producto 3">
-                    <a href="./views/jabones-y-esencias.html" class="a_article_4imagenes"> Jabones y esencias </a>
-                </li> 
-            </ul>
+
+    <h2 class="nuestra_coleccion"> Nuestra Coleccion </h2>
+
+    <article class="container">
+      <div  class="row contenedor-cards">
+        <div class="card col-md-2" >
+          <img src="./img/velas-y-flores.jpg" class="card-img-top-index" alt="...">
+          <div class="card-body">
+            <a href="./views/composiciones.html" class="texto-carta"> Te invitamos a ver nuestras composiciones mas lindas ! </a>
+          </div>
         </div>
+
+        <div class="card col-md-2" >
+          <img src="./img/vela_producto_4.jpg" class="card-img-top-index" alt="...">
+          <div class="card-body">
+            <a href="./views/velas.html" class="texto-carta"> Veni a ver nuestras hermosas Velas de soja ! </a>
+          </div>
+        </div>
+
+        <div class="card col-md-2" >
+          <img src="./img/mantas-y-almohadones.jpg" class="card-img-top-index" alt="...">
+          <div class="card-body">
+            <a href="./views/trabajos-en-tela.html" class="texto-carta"> Aca tenemos trabajos totalmente artesanales sobre tela  </a> 
+          </div>
+        </div>
+
+        <div class="card col-md-2" >
+          <img src="./img/fragancia-jabon-escencia.jpg" class="card-img-top-index" alt="...">
+          <div class="card-body">
+            <a href="./views/jabones-y-esencias.html" class="texto-carta"> Probar estos jabones y esencias es un camino de ida </a>
+          </div>
+        </div>
+      </div>
     </article>
     
-    <section>
-        <article class="article_3iconos">
-            <ul>
-                <li>
-                    <i class="fa-solid fa-seedling fa-4x"></i>
+    <section class="container">
+        <article class="row">
+            <ul class="article_3iconos">
+                <li >
+                    <i class="fa-solid fa-seedling fa-10x"></i>
                     <h4> Soja Natural </h4>
                 </li>
-                <li>
-                    <i class="fa-solid fa-truck fa-4x"></i>
+                <li >
+                    <i class="fa-solid fa-truck fa-10x"></i>
                     <h4> Delivery Dedicado </h4>
                 </li>
                 <li>
-                    <i class="fa-solid fa-recycle fa-4x"></i>
+                    <i class="fa-solid fa-recycle fa-10x"></i>
                     <h4> Envases Recargables </h4>
                 </li>
             </ul>
         </article> 
     </section>
 
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non temporibus ut ipsam alias eaque expedita, optio veritatis, consequuntur velit asperiores facere pariatur corporis. Nobis quidem quisquam necessitatibus possimus magni pariatur fugit at. Suscipit voluptas corrupti odit aut quibusdam doloribus delectus earum sunt. Vero delectus at reprehenderit quo maxime? Veritatis saepe doloremque ad libero. Dicta, quam adipisci natus maxime quaerat impedit obcaecati atque et numquam suscipit labore aliquam minima nobis perferendis, sint ea consectetur eveniet, voluptates similique illo voluptas necessitatibus distinctio. Nemo cons </p>
+    <p class="texto-final-index"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non temporibus ut ipsam alias eaque expedita, optio veritatis, consequuntur velit asperiores facere pariatur corporis. Nobis quidem quisquam necessitatibus possimus magni pariatur fugit at. Suscipit voluptas corrupti odit aut quibusdam doloribus delectus earum sunt. Vero delectus at reprehenderit quo maxime? Veritatis saepe doloremque ad libero. Dicta, quam adipisci natus maxime quaerat impedit obcaecati atque et numquam suscipit labore aliquam minima nobis perferendis, sint ea consectetur eveniet, voluptates similique illo voluptas necessitatibus distinctio. Nemo cons </p>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/_xIjlVxVVLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section class="video-section">
+      <iframe class= "index-video col-md-5" src="https://www.youtube.com/embed/_xIjlVxVVLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
 
 
     <footer id="pie">

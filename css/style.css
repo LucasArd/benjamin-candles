@@ -33,13 +33,13 @@ header h1{
 .navbar{
     display: flex;
     gap: 2rem;
-    padding-bottom: 3rem;
+
 
 }
 
 .toggler-icon{
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 .navbar_bootstrap{
@@ -73,47 +73,33 @@ ul {
     height: 12rem;
 }
 
-article h2{
-    font-size: 3rem;
+.nuestra_coleccion{
     text-align: center;
-    padding: 2rem;
-    text-decoration-line: underline;
-    font-family: 'Arima', cursive;
+    font-size: 6rem;
+    padding-top: 8rem;
 }
 
-.la_coleccion {
-    padding: 6%
+.card{
+    border-radius: 2rem;
 }
 
-.article_4imagenes{
+.contenedor-cards{
     display: flex;
-    justify-content: center;
-    align-items: baseline;
-    margin-left: 5%;
-    gap: 6rem;
+    justify-content: space-around;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.card-img-top-index{
+    padding-top: 1rem;
+    border-radius: 2rem;
+}
+
+.texto-carta{
+    text-decoration: none;
+    color: #080101;
     font-size: 2rem;
 }
-
-.a_article_4imagenes{
-    display: flex;
-    color: #080101;
-    text-decoration: none;
-    font-size: 2.5rem;
-    justify-content: center;
-}
-
-.a_article_4imagenes:hover{
-    transition: all 2s;
-    transform: scale(1.2);
-}
-
-.img_index_edit{
-    border: 1px black solid;
-    border-radius: 1rem;
-    padding: 2rem;
-    background-color: rgba(255, 223, 223, 0.649);
-}
-
 
 @keyframes animacionImagenes {
     0% {
@@ -121,58 +107,36 @@ article h2{
     }
 }
 
-.img_index_edit:hover{
+.card-img-top-index:hover{
     animation: animacionImagenes 2s;
 }
 
-.Ver_productos{
-    font-size: 1.8rem;
-    padding: 0.5rem;
-    background-color: rgba(203, 175, 159, 0.845);
-    display: inline-block;
-    margin-left: 43%;
-    margin-top: 3%;
-}
-
-section article ul{
+.article_3iconos{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20rem;
-    font-size: 2rem;
-    align-content: center;
-    padding-bottom: 1%;
+    justify-content: space-around;
+    padding-top: 6rem;
+    padding-bottom: 6rem ;
 }
-
 
 .fa-recycle{
-    display: flex;
-    justify-content: center;
-    padding-left: 5rem;
-}
-.fa-truck{
-
-    display: flex;
-    justify-content: center;
-    padding-left: 3rem;
-}
-.fa-seedling{
-
-    display: flex;
-    justify-content: center;
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
-p{
+.texto-final-index{
     font-size: 2rem;
     text-align: center;
 }
 
-iframe{
-    margin-left: 30%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+.video-section{
+    display: flex;
+    justify-content: center;
+}
+
+.index-video{
+    height: 40rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 footer{
@@ -225,8 +189,7 @@ footer{
 }
 
 .section_grid{
-    padding: 1rem;
-    margin-top: 3rem;
+    padding: 3rem;
 }
 
 .div_grid_1{
@@ -293,15 +256,11 @@ footer{
 
 .section_grid{
     display: grid;
-    border:#080101 3px solid;
-    margin-left: 7%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr; 
     grid-row-gap: 0.5rem;
     grid-column-gap: 0.5rem;
-    background-color: rgba(235, 187, 234, 0.319);
     height: 80rem;
-    width: 85%;
     grid-template-areas: 
     "img_1 img_2 img_3"
     " img_1 img_5 img_6"
@@ -317,9 +276,8 @@ footer{
         background-repeat: no-repeat;
         background-position-x: center;
         text-align: center;
-        font-family: 'Arima', cursive;
         font-size: 3rem;
-        padding-bottom: 40rem;
+        height: 40rem;
 }
 
 .texto_nosotros{
@@ -331,9 +289,10 @@ footer{
 }
 .texto_nosotros_p{
     padding:2rem;
+    font-size: 2rem;
 }
 .texto_nosotros_h2{
-    font-size: x-large;
+    font-size: 3rem;
 }
 
 .iconos_contacto {
@@ -379,8 +338,15 @@ footer{
             justify-content: flex-end;
         }
 
-        .la_coleccion{
-            flex-direction: column;
+        .benjamin_candles_titulo{
+            font-size: 3rem;
+        }
+
+        .contenedor-cards{
+            padding-top: 4rem;
+            padding-left: 20%;
+            height: 80%;
+            width: 80%;
         }
 
         .section_grid{
@@ -388,24 +354,9 @@ footer{
             display: none;
         }
 
-        .article_4imagenes{
-            flex-direction: column;
-            padding-top: 3rem;
-            align-items: center;
-            justify-content: center;
-            align-content: center;
-        }
-
         .article_3iconos{
             visibility: hidden;
             display: none;
         }
         
-        iframe{
-            display:flex;
-            justify-content: center;
-            height: 50%;
-            width: 50%;
-        }
-    
     }
