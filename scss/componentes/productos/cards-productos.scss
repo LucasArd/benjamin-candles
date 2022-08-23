@@ -1,0 +1,24 @@
+@import '../../base/mixin';
+
+.cartas_productos{
+    padding-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem;
+    gap:8rem;
+}
+
+
+.card-content{
+    @include card-products($border,$radius,$back-color);
+    padding: 1rem;
+}
+.card-img-top{
+    border-radius: 15px;
+}
+
+.card-img-top:hover{
+    transition: all 2s;
+    transform: scale(2.5);
+}

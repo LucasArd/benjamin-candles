@@ -1,0 +1,68 @@
+.section_grid{
+    padding: 3rem;
+}
+
+.div_grid_1{
+    background-image: url(../img/fragancia-jabon-escencia.jpg);
+    grid-area: img_1;
+    background-position: center;
+    background-size: cover;
+    background-position-y: -12rem;
+}
+.div_grid_2{
+    background-image: url(../img/Img_Fondo_Index_edit.jpg);   
+    grid-area: img_2;
+    background-position: center;
+    background-size: cover;
+}
+.div_grid_3{
+    background-image: url(../img/fragancia-almohadones.jpg);
+    grid-area: img_3;
+}
+.div_grid_4{
+    background-image: url(../img/Img_Fondo_Index.PNG);
+    grid-area: img_4;
+}
+.div_grid_5{
+    background-image: url(../img/img-fondo-madera-index.jpg);
+    grid-area: img_5;
+}
+.div_grid_6{
+    background-image: url(../img/fragancia-almohadones.jpg);
+    grid-area: img_6;
+}
+.div_grid_7{
+    background-image: url(../img/fondo-invierno-hojas-index.webp);
+    grid-area: img_7;
+}
+.div_grid_8{
+    background-image: url(../img/montaña_fondo.jpg);
+    grid-area: img_8;
+}
+.div_grid_9{
+    background-image: url(../img/fragancia-almohadones.jpg);
+    grid-area: img_9;
+}
+
+.div_grid_10{
+    background-image: url(../img/fondo-invierno-hojas-index.webp);
+    grid-area: img_10;
+}
+.div_grid_12{
+    background-image: url(../img/img-fondo-madera-index.jpg);
+    grid-area: img_12;
+}
+
+.section_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    grid-row-gap: 0.5rem;
+    grid-column-gap: 0.5rem;
+    height: 80rem;
+    grid-template-areas: 
+    "img_1 img_2 img_3"
+    " img_1 img_5 img_6"
+    " img_7 img_8 img_6"
+    "img_10 img_8 img_12";
+}

@@ -1,0 +1,28 @@
+@import '../base/extend';
+@import '../base/maps';
+
+footer{
+    background-color: map-get($map: $footer, $key: bg-footer);
+    padding-bottom: map-get($map: $footer, $key: p-bottom );
+    height: map-get($map: $footer, $key: height-footer);
+}
+
+.iconos_contacto {
+    display: flex;
+}
+
+
+.fa-instagram{
+    @extend %footer-icons;
+}
+.fa-envelope{
+
+    @extend %footer-icons;
+}
+.fa-facebook{
+
+    @extend %footer-icons;
+}
+.fa-whatsapp{
+    @extend %footer-icons;
+}

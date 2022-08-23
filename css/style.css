@@ -1,362 +1,321 @@
-html{
-    font-size: 62.5%;
+@charset "UTF-8";
+.icono-cambio {
+  width: 12rem;
+  height: 12rem;
 }
 
-/* ====== ========================= INDEX VIEW ========================== ======= */
-
-body{
-    font-family: 'Arima', cursive;
-
-}
-.parallax{
-    background-image: url(../img/fondo-index-pared.avif);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-header{
-    background-color: rgb(203, 175, 159);
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 15rem;    
+.index-video {
+  height: 40rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
-header h1{
-    padding-top: 4rem;
-    text-align: center;
-    font-size: 4rem;
-
-}
-.navbar{
-    display: flex;
-    gap: 2rem;
-
-
+.fa-whatsapp, .fa-facebook, .fa-envelope, .fa-instagram {
+  padding-left: 2rem;
+  margin: 0.5rem;
 }
 
-.toggler-icon{
-    height: 3rem;
-    width: 3rem;
+footer {
+  background-color: rgba(208, 148, 96, 0.64);
+  padding-bottom: 1rem;
+  height: 10rem;
 }
 
-.navbar_bootstrap{
-    font-size: 1.7rem;
-    justify-content: center;
+.iconos_contacto {
+  display: flex;
 }
 
-.navbar_bootstrap a{
-    color:black;
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Arima", cursive;
+}
+
+.parallax {
+  background-image: url(../img/fondo-index-pared.avif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: rgb(203, 175, 159);
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 15rem;
+}
+header h1 {
+  padding-top: 4rem;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 2rem;
+}
+
+.toggler-icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.navbar_bootstrap {
+  font-size: 1.7rem;
+  justify-content: center;
+}
+.navbar_bootstrap a {
+  color: black;
 }
 
 .navbar a:hover {
-    color: black;
-    transition: all 2s;
-    transform: scale(1.2);
+  color: black;
+  transition: all 2s;
+  transform: scale(1.2);
 }
 
-.navbar-collapse{
-    display: flex;
-    flex-direction: row;
+.navbar-collapse {
+  display: flex;
+  flex-direction: row;
 }
-.nav-item{
-    padding-left: 1rem;
+
+.nav-item {
+  padding-left: 1rem;
 }
+
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.icono-cambio{
-    width: 12rem;
-    height: 12rem;
+.nuestra_coleccion {
+  text-align: center;
+  font-size: 6rem;
+  padding-top: 8rem;
 }
 
-.nuestra_coleccion{
-    text-align: center;
-    font-size: 6rem;
-    padding-top: 8rem;
+.card {
+  border-radius: 2rem;
+  background-color: rgba(208, 148, 96, 0.64);
 }
 
-.card{
-    border-radius: 2rem;
+.contenedor-cards {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
-.contenedor-cards{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+.card-img-top-index {
+  padding-top: 1rem;
+  border-radius: 2rem;
 }
 
-.card-img-top-index{
-    padding-top: 1rem;
-    border-radius: 2rem;
-}
-
-.texto-carta{
-    text-decoration: none;
-    color: #080101;
-    font-size: 2rem;
+.texto-carta {
+  text-decoration: none;
+  color: #080101;
+  font-size: 2rem;
 }
 
 @keyframes animacionImagenes {
-    0% {
-        transform: scale(1.2);
-    }
+  0% {
+    transform: scale(1.2);
+  }
+}
+.card-img-top-index:hover {
+  animation: animacionImagenes 2s;
 }
 
-.card-img-top-index:hover{
-    animation: animacionImagenes 2s;
+.article_3iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
-.article_3iconos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 6rem;
-    padding-bottom: 6rem ;
+.fa-recycle {
+  padding-left: 2rem;
 }
 
-.fa-recycle{
-    padding-left: 2rem;
+.texto-final-index {
+  font-size: 2rem;
+  text-align: center;
 }
 
-.texto-final-index{
-    font-size: 2rem;
-    text-align: center;
+.video-section {
+  display: flex;
+  justify-content: center;
 }
 
-.video-section{
-    display: flex;
-    justify-content: center;
+.coleccion_html {
+  font-size: 62.5%;
 }
 
-.index-video{
-    height: 40rem;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-footer{
-    background-color: rgba(208, 148, 96, 0.64);
-    padding-bottom: 1rem;
+.parallax_coleccion {
+  background-image: url(../img/fondo-index-pared.avif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.iconos_contacto {
-    display: flex;
+.section_grid {
+  padding: 3rem;
 }
 
-.fa-instagram{
-
-    padding-left: 2rem;
-    margin: 0.5rem;
-}
-.fa-envelope{
-
-    padding-left: 2rem;
-    margin: 0.5rem;
-}
-.fa-facebook{
-
-    padding-left: 2rem;
-    margin: 0.5rem;
-}
-.fa-whatsapp{
-    padding-left: 2rem;
-    margin: 0.5rem;
+.div_grid_1 {
+  background-image: url(../img/fragancia-jabon-escencia.jpg);
+  grid-area: img_1;
+  background-position: center;
+  background-size: cover;
+  background-position-y: -12rem;
 }
 
-/* ===== =========================== COLECCION VIEW ======================================== ===== */
-
-.coleccion_html{
-    font-size: 62.5%;
-
-}
-*{
-    padding: 0;
-    margin: 0;
+.div_grid_2 {
+  background-image: url(../img/Img_Fondo_Index_edit.jpg);
+  grid-area: img_2;
+  background-position: center;
+  background-size: cover;
 }
 
-
-.parallax_coleccion{
-    background-image: url(../img/fondo-index-pared.avif);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.div_grid_3 {
+  background-image: url(../img/fragancia-almohadones.jpg);
+  grid-area: img_3;
 }
 
-.section_grid{
-    padding: 3rem;
+.div_grid_4 {
+  background-image: url(../img/Img_Fondo_Index.PNG);
+  grid-area: img_4;
 }
 
-.div_grid_1{
-    background-image: url(../img/fragancia-jabon-escencia.jpg);
-    border: 2px black solid;
-    grid-area: img_1;
-    background-position: center;
-    background-size: cover;
-    background-position-y: -12rem;
-}
-.div_grid_2{
-    background-image: url(../img/Img_Fondo_Index_edit.jpg);   
-    border: 2px black solid;
-    grid-area: img_2;
-    background-position: center;
-    background-size: cover;
-}
-.div_grid_3{
-    background-image: url(../img/fragancia-almohadones.jpg);
-    border: 2px black solid;
-    grid-area: img_3;
-}
-.div_grid_4{
-    background-image: url(../img/Img_Fondo_Index.PNG);
-    border: 2px black solid;
-    grid-area: img_4;
-}
-.div_grid_5{
-    background-image: url(../img/img-fondo-madera-index.jpg);
-    border: 2px black solid;
-    grid-area: img_5;
-}
-.div_grid_6{
-    background-image: url(../img/fragancia-almohadones.jpg);
-    border: 2px black solid;
-    grid-area: img_6;
-}
-.div_grid_7{
-    background-image: url(../img/fondo-invierno-hojas-index.webp);
-    border: 2px black solid;
-    grid-area: img_7;
-}
-.div_grid_8{
-    background-image: url(../img/montaña_fondo.jpg);
-    border: 2px black solid;
-    grid-area: img_8;
-}
-.div_grid_9{
-    background-image: url(../img/fragancia-almohadones.jpg);
-    border: 2px black solid;
-    grid-area: img_9;
+.div_grid_5 {
+  background-image: url(../img/img-fondo-madera-index.jpg);
+  grid-area: img_5;
 }
 
-.div_grid_10{
-    background-image: url(../img/fondo-invierno-hojas-index.webp);
-    border: 2px black solid;
-    grid-area: img_10;
-}
-.div_grid_12{
-    background-image: url(../img/img-fondo-madera-index.jpg);
-    border: 2px black solid;
-    grid-area: img_12;
+.div_grid_6 {
+  background-image: url(../img/fragancia-almohadones.jpg);
+  grid-area: img_6;
 }
 
-.section_grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr; 
-    grid-row-gap: 0.5rem;
-    grid-column-gap: 0.5rem;
-    height: 80rem;
-    grid-template-areas: 
-    "img_1 img_2 img_3"
-    " img_1 img_5 img_6"
-    " img_7 img_8 img_6"
-    "img_10 img_8 img_12";
+.div_grid_7 {
+  background-image: url(../img/fondo-invierno-hojas-index.webp);
+  grid-area: img_7;
 }
 
-
-/* ===== ================================ Nosotros Views ================================ ===== */
-
-.fraseMotivacionalInicioNosotros{
-        background-image: url(../img/Fondo_final_nosotros.jpg);
-        background-repeat: no-repeat;
-        background-position-x: center;
-        text-align: center;
-        font-size: 3rem;
-        height: 40rem;
+.div_grid_8 {
+  background-image: url(../img/montaña_fondo.jpg);
+  grid-area: img_8;
 }
 
-.texto_nosotros{
-    padding: 5rem;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.div_grid_9 {
+  background-image: url(../img/fragancia-almohadones.jpg);
+  grid-area: img_9;
 }
-.texto_nosotros_p{
-    padding:2rem;
-    font-size: 2rem;
+
+.div_grid_10 {
+  background-image: url(../img/fondo-invierno-hojas-index.webp);
+  grid-area: img_10;
 }
-.texto_nosotros_h2{
+
+.div_grid_12 {
+  background-image: url(../img/img-fondo-madera-index.jpg);
+  grid-area: img_12;
+}
+
+.section_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 0.5rem;
+  grid-column-gap: 0.5rem;
+  height: 80rem;
+  grid-template-areas: "img_1 img_2 img_3" " img_1 img_5 img_6" " img_7 img_8 img_6" "img_10 img_8 img_12";
+}
+
+.fraseMotivacionalInicioNosotros {
+  background-image: url(../img/Fondo_final_nosotros.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  text-align: center;
+  font-size: 3rem;
+  height: 40rem;
+}
+
+.texto_nosotros {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.texto_nosotros_p {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.texto_nosotros_h2 {
+  font-size: 3rem;
+}
+
+.cartas_productos {
+  padding-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem;
+  gap: 8rem;
+}
+
+.card-content {
+  border: 5px;
+  border-radius: 20px;
+  background-color: rgb(203, 175, 159);
+  padding: 1rem;
+}
+
+.card-img-top {
+  border-radius: 15px;
+}
+
+.card-img-top:hover {
+  transition: all 2s;
+  transform: scale(2.5);
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    padding-right: 1rem;
+    justify-content: flex-end;
+  }
+  .benjamin_candles_titulo {
     font-size: 3rem;
+  }
+  .contenedor-cards {
+    padding-top: 4rem;
+    padding-left: 20%;
+    height: 80%;
+    width: 80%;
+  }
+  .section_grid {
+    visibility: hidden;
+    display: none;
+  }
+  .article_3iconos {
+    visibility: hidden;
+    display: none;
+  }
 }
 
-.iconos_contacto {
-    display: flex;
-}
-
-.iconos_contacto:hover{
-    animation: animacionImagenes 2s;
-}
-
-/* ===== ================================= COMPOSISioNES VIEW ============================ ====== */
-
-.cartas_productos{
-    padding-top: 3rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 3rem;
-    gap:8rem;
-}
-
-.card-content{
-    padding: 1rem;
-    background-color: rgba(255, 192, 203, 0.49);
-    border-radius: 5px;
-}
-.card-img-top{
-    border-radius: 4px;
-}
-
-.card-img-top:hover{
-    transition: all 2s;
-    transform: scale(2.5);
-}
-
-
-/*===== ================================== Media Querie ================================== ===== */
-
-    @media screen and (max-width: 800px) {
-
-        .navbar{
-            padding-right: 1rem;
-            justify-content: flex-end;
-        }
-
-        .benjamin_candles_titulo{
-            font-size: 3rem;
-        }
-
-        .contenedor-cards{
-            padding-top: 4rem;
-            padding-left: 20%;
-            height: 80%;
-            width: 80%;
-        }
-
-        .section_grid{
-            visibility: hidden;
-            display: none;
-        }
-
-        .article_3iconos{
-            visibility: hidden;
-            display: none;
-        }
-        
-    }
+/*# sourceMappingURL=style.css.map */

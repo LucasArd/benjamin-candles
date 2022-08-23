@@ -1,0 +1,60 @@
+.nuestra_coleccion{
+    text-align: center;
+    font-size: 6rem;
+    padding-top: 8rem;
+}
+
+.card{
+    border-radius: 2rem;
+    background-color: map-get($map: $footer, $key: bg-footer ) ;
+}
+
+.contenedor-cards{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.card-img-top-index{
+    padding-top: 1rem;
+    border-radius: 2rem;
+}
+
+.texto-carta{
+    text-decoration: none;
+    color: #080101;
+    font-size: 2rem;
+}
+
+@keyframes animacionImagenes {
+    0% {
+        transform: scale(1.2);
+    }
+}
+
+.card-img-top-index:hover{
+    animation: animacionImagenes 2s;
+}
+
+.article_3iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 6rem;
+    padding-bottom: 6rem ;
+}
+
+.fa-recycle{
+    padding-left: 2rem;
+}
+
+.texto-final-index{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.video-section{
+    display: flex;
+    justify-content: center;
+}

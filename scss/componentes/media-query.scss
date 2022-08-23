@@ -1,0 +1,29 @@
+@media screen and (max-width: 800px) {
+
+    .navbar{
+        padding-right: 1rem;
+        justify-content: flex-end;
+    }
+
+    .benjamin_candles_titulo{
+        font-size: 3rem;
+    }
+
+    .contenedor-cards{
+        padding-top: 4rem;
+        padding-left: 20%;
+        height: 80%;
+        width: 80%;
+    }
+
+    .section_grid{
+        visibility: hidden;
+        display: none;
+    }
+
+    .article_3iconos{
+        visibility: hidden;
+        display: none;
+    }
+    
+}

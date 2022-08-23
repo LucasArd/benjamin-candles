@@ -1,0 +1,16 @@
+.coleccion_html{
+    font-size: 62.5%;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parallax_coleccion{
+    background-image: url(../img/fondo-index-pared.avif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

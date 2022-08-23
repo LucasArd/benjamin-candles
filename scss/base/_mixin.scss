@@ -1,0 +1,13 @@
+
+
+$border: 5px;
+$radius: 20px;
+$back-color: rgb(203, 175, 159);
+
+
+@mixin card-products ($border,$radius,$back-color){
+    border: $border;
+    border-radius: $radius;
+    background-color: $back-color;
+
+}
