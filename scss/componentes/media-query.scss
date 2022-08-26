@@ -7,6 +7,7 @@
 
     .benjamin_candles_titulo{
         font-size: 3rem;
+        padding-top: 1rem;
     }
 
     .contenedor-cards{
@@ -25,5 +26,9 @@
         visibility: hidden;
         display: none;
     }
-    
+
+    .card-content{
+        width: 28rem;
+    }
+
 }

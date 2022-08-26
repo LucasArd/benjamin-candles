@@ -19,9 +19,9 @@
 <body class="parallax">
     <header>
         <nav class="container-fluid navbar navbar-expand-lg navbar-light">
-          <h1 class="benjamin_candles_titulo">BENJAMIN CANDLES</h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon toggler-icon"></span>
+            <h1 class="benjamin_candles_titulo">BENJAMIN CANDLES</h1>
+            <button class="navbar-toggler navbar-burger " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon toggler-icon  "></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent" >
               <ul class="nav nav-tabs navbar_bootstrap navbar-collapse navbar-nav me-auto mb-2 mb-lg-0" >
@@ -34,8 +34,16 @@
                   <li class="nav-item navbar_bootstrap">
                     <a class="nav-link" href="./views/nosotros.html" >Nosotros</a>
                   </li>
-                  <li class="nav-item navbar_bootstrap">
-                    <a class="nav-link" href="#pie">Contacto</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contacto
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark ul-navbar" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="https://www.whatsapp.com/catalog/5491158138396/?app_absent=0"> <i class="fa fa-whatsapp fa-2x"></i>Whatsapp </a></li>
+                      <li><a class="dropdown-item" href="https://www.instagram.com/benjamin_candles/"> <i class="fa fa-instagram fa-2x"></i> Instagram</a></li>
+                      <li><a class="dropdown-item" href="https://www.facebook.com/benjamincandles"><i class="fa fa-facebook fa-2x"></i> Facebook </a></li>
+                      <li><a class="dropdown-item" href="mailto:paulaquinteros@yahoo.com.ar"><i class="fa fa-envelope fa-2x"></i> E-mail</a></li>
+                    </ul>
                   </li>
               </ul>
             </div>
@@ -57,7 +65,7 @@
                     <img src="./img/img-fondo-index.jpg" class="d-block w-100" alt="hermosas velas aromaticas artesanales con envases reciclables, perfectas para adornar y tener fragancias exquisitas ">
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/carousel_index_prueba.jpg" class="d-block w-100" alt="hermosas velas aromaticas artesanales con envases reciclables, perfectas para adornar y tener fragancias exquisitas ">
+                    <img src="./img/img-index-3.jpg" class="d-block w-100" alt="hermosas velas aromaticas artesanales con envases reciclables, perfectas para adornar y tener fragancias exquisitas ">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -72,13 +80,20 @@
         </section>
     </main>
 
-    <h2 class="nuestra_coleccion"> Nuestra Coleccion </h2>
-
+    <section class="section-headingoverline">
+      <h1 class="one">
+        <span> Nuestra coleccion </span>
+      </h1>
+    </section>
+    
     <article class="container">
       <div  class="row contenedor-cards">
         <div class="card col-md-2" >
           <img src="./img/vela_producto_4.jpg" class="card-img-top-index" alt="...">
           <div class="card-body">
+            <h2 class="texto-carta-title">
+              <a href="./views/composiciones.html" class="texto-carta-title"> Velas  </a>
+            </h2>
             <a href="./views/velas.html" class="texto-carta"> Veni a ver nuestras hermosas Velas de soja ! </a>
           </div>
         </div>
@@ -86,6 +101,9 @@
         <div class="card col-md-2" >
           <img src="./img/velas-y-flores.jpg" class="card-img-top-index" alt="...">
           <div class="card-body">
+            <h2 class="texto-carta-title">
+              <a href="./views/composiciones.html" class="texto-carta-title"> Composiciones </a>
+            </h2>
             <a href="./views/composiciones.html" class="texto-carta"> Te invitamos a ver nuestras composiciones mas lindas ! </a>
           </div>
         </div>
@@ -93,6 +111,9 @@
         <div class="card col-md-2" >
           <img src="./img/mantas-y-almohadones.jpg" class="card-img-top-index" alt="...">
           <div class="card-body">
+            <h2 class="texto-carta-title">
+              <a href="./views/composiciones.html" class="texto-carta-title"> Telas </a>
+            </h2>
             <a href="./views/trabajos-en-tela.html" class="texto-carta"> Aca tenemos trabajos totalmente artesanales sobre tela  </a> 
           </div>
         </div>
@@ -100,6 +121,9 @@
         <div class="card col-md-2" >
           <img src="./img/fragancia-jabon-escencia.jpg" class="card-img-top-index" alt="...">
           <div class="card-body">
+            <h2 class="texto-carta-title">
+              <a href="./views/composiciones.html" class="texto-carta-title"> Fragancias </a>
+            </h2>
             <a href="./views/jabones-y-esencias.html" class="texto-carta"> Probar estos jabones y esencias es un camino de ida </a>
           </div>
         </div>
@@ -111,47 +135,77 @@
             <ul class="article_3iconos">
                 <li >
                     <i class="fa-solid fa-seedling fa-10x"></i>
-                    <h4> Soja Natural </h4>
+                    <h4 class="texto-carta-3title"> Soja Natural </h4>
                 </li>
                 <li >
                     <i class="fa-solid fa-truck fa-10x"></i>
-                    <h4> Delivery Dedicado </h4>
+                    <h4 class="texto-carta-3title"> Delivery Dedicado </h4>
                 </li>
                 <li>
                     <i class="fa-solid fa-recycle fa-10x"></i>
-                    <h4> Envases Recargables </h4>
+                    <h4 class="texto-carta-3title"> Envases Recargables </h4>
                 </li>
             </ul>
         </article> 
     </section>
 
-    <p class="texto-final-index"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non temporibus ut ipsam alias eaque expedita, optio veritatis, consequuntur velit asperiores facere pariatur corporis. Nobis quidem quisquam necessitatibus possimus magni pariatur fugit at. Suscipit voluptas corrupti odit aut quibusdam doloribus delectus earum sunt. Vero delectus at reprehenderit quo maxime? Veritatis saepe doloremque ad libero. Dicta, quam adipisci natus maxime quaerat impedit obcaecati atque et numquam suscipit labore aliquam minima nobis perferendis, sint ea consectetur eveniet, voluptates similique illo voluptas necessitatibus distinctio. Nemo cons </p>
+    <p class="texto-final-index"> La cera de soja es un material derivado de plantas, una fuente renovable y biodegradable creando así un producto sostenible. Su combustión no supone ningún riesgo para la salud, ni aumenta los niveles de toxicidad del ambiente ya que no aumenta los niveles de CO2, ni produce hollín. Las mechas empleadas están elaboradas con filamentos de algodón 100% naturales. Las velas de cera de soja se consumen más lentamente que las elaboradas con parafina, aguantando 2 o 3 veces más que estas. De este modo, resultan mucho más rentables</p>
 
     <section class="video-section">
-      <iframe class= "index-video col-md-5" src="https://www.youtube.com/embed/_xIjlVxVVLQ" title="creacion velas de soja con fragancias exquisitas, artesanias naturales para sentirse bien" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class= "index-video col-md-4" src="https://www.youtube.com/embed/_xIjlVxVVLQ" title="creacion velas de soja con fragancias exquisitas, artesanias naturales para sentirse bien" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
 
 
-    <footer id="pie">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"></a>
-              <i class="fa-brands fa-instagram fa-5x"></i>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-              <i class="fa-solid fa-envelope fa-5x" ></i> 
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-              <i class="fa-brands fa-facebook fa-5x"></i> 
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"></a>
-              <i class="fa-brands fa-whatsapp fa-5x" ></i>
-            </li>
-          </ul>
-    </footer>
+x
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil distinctio quisquam corporis. Ab obcaecati veniam, voluptates in adipisci repudiandae officia voluptatibus eaque voluptatem molestias sequi dolorem quod facere qui incidunt!</p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="./views/velas.html">Velas</a></li>
+                <li><a href="./views/trabajos-en-tela.html">Telas - Trabajos artesanales</a></li>
+                <li><a href="./views/composiciones.html">Composiciones</a></li>
+                <li><a href="./views/jabones-y-esencias.html">Fragancias y Jabones</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="./views/nosotros.html">Nosotros</a></li>
+                <li><a href="./index.html"></li>Inicio</a></li>
+                <li><a href="./views/coleccion.html">Coleccion</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 20 All Rights Reserved by 
+           <a href="#">https://github.com/LucasArd</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="https://www.facebook.com/benjamincandles"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="https://www.instagram.com/benjamin_candles/"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="dribbble" href="https://www.whatsapp.com/catalog/5491158138396/?app_absent=0"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a class="E-mail" href="mailto:paulaquinteros@yahoo.com.ar"><i class="fa fa-envelope"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

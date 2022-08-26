@@ -1,7 +1,17 @@
 @charset "UTF-8";
 .icono-cambio {
-  width: 12rem;
-  height: 12rem;
+  width: 15rem;
+  height: 15rem;
+}
+
+.section_carousel {
+  z-index: -1;
+}
+
+.texto-final-index {
+  text-align: justify;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .index-video {
@@ -10,21 +20,163 @@
   padding-bottom: 8rem;
 }
 
-.fa-whatsapp, .fa-facebook, .fa-envelope, .fa-instagram {
-  padding-left: 2rem;
-  margin: 0.5rem;
-}
-
-footer {
+.site-footer {
   background-color: rgba(208, 148, 96, 0.64);
-  padding-bottom: 1rem;
-  height: 10rem;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
 }
 
-.iconos_contacto {
-  display: flex;
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
 }
 
+.site-footer hr.small {
+  margin: 20px 0;
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.site-footer a {
+  color: #737373;
+}
+
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  display: block;
+}
+
+.footer-links a {
+  color: #737373;
+}
+
+.footer-links a:active, .footer-links a:focus, .footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links.inline li {
+  display: inline-block;
+}
+
+.site-footer .social-icons {
+  text-align: right;
+}
+
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+
+.copyright-text {
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text, .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.social-icons a:active, .social-icons a:focus, .social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
 html {
   font-size: 62.5%;
 }
@@ -92,10 +244,8 @@ ul {
   list-style-type: none;
 }
 
-.nuestra_coleccion {
-  text-align: center;
-  font-size: 6rem;
-  padding-top: 8rem;
+.ul-navbar {
+  z-index: 9999;
 }
 
 .card {
@@ -115,7 +265,15 @@ ul {
   border-radius: 2rem;
 }
 
+.texto-carta-title {
+  font-size: 2.6rem;
+  text-align: center;
+  color: #080101;
+  padding-bottom: 2rem;
+}
+
 .texto-carta {
+  text-align: center;
   text-decoration: none;
   color: #080101;
   font-size: 2rem;
@@ -123,9 +281,14 @@ ul {
 
 @keyframes animacionImagenes {
   0% {
-    transform: scale(1.2);
+    transform: scale(1.05);
   }
 }
+.card-img-top-index {
+  height: 50%;
+  width: 100%;
+}
+
 .card-img-top-index:hover {
   animation: animacionImagenes 2s;
 }
@@ -150,6 +313,15 @@ ul {
 .video-section {
   display: flex;
   justify-content: center;
+}
+
+.texto-carta-3title {
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+.card-content {
+  width: 18rem;
 }
 
 .coleccion_html {
@@ -301,6 +473,7 @@ ul {
   }
   .benjamin_candles_titulo {
     font-size: 3rem;
+    padding-top: 1rem;
   }
   .contenedor-cards {
     padding-top: 4rem;
@@ -315,6 +488,47 @@ ul {
   .article_3iconos {
     visibility: hidden;
     display: none;
+  }
+  .card-content {
+    width: 28rem;
+  }
+}
+.section-headingoverline {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+}
+
+.one {
+  position: relative;
+  font-size: 4rem;
+}
+
+h1.one:before {
+  content: "";
+  display: block;
+  border-top: solid 1px black;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+h1.one span {
+  background: rgb(203, 175, 159);
+  padding: 0 20px;
+  position: relative;
+  z-index: 5;
+  border: rgb(203, 175, 159) solid;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .section-headingoverline {
+    width: 365px;
   }
 }
 
