@@ -434,6 +434,7 @@ ul {
 
 .card-img-top {
   border-radius: 15px;
+  height: 30rem;
 }
 
 .card-img-top:hover {
